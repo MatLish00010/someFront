@@ -7,7 +7,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          GET Started by editing&nbsp;
+          GET Started BY editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
