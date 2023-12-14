@@ -3,7 +3,7 @@ import {Link} from '@nextui-org/link';
 import {Skeleton} from '@nextui-org/skeleton';
 import {Suspense} from 'react';
 
-import {positivePromise} from '@/utils/fakePromise';
+import {positivePromise} from '@/src/utils/fakePromise';
 
 function NewsCardLoad() {
   return (
