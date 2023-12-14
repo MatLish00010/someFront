@@ -7,7 +7,7 @@ type Props = {
 };
 export default function Layout({children, visits, status}: Props) {
   return (
-    <div>
+    <main className="container mx-auto  h-screen px-4 pt-5 md:container">
       <div className="p-2 text-center">
         <h1 className="text-xl font-semibold text-logo">Dashboard</h1>
       </div>
@@ -16,6 +16,6 @@ export default function Layout({children, visits, status}: Props) {
         {visits}
         {status}
       </div>
-    </div>
+    </main>
   );
 }

@@ -12,11 +12,14 @@
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "@nextui-org/react": "^2.1.13",
+    "@orbs-network/ton-access": "^2.3.3",
     "framer-motion": "^10.16.4",
     "next": "^14.0.4",
     "next-auth": "^5.0.0-beta.4",
     "react": "latest",
     "react-dom": "latest",
+    "ton": "^13.9.0",
+    "ton-crypto": "^3.2.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {

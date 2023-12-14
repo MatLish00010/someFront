@@ -1,7 +1,7 @@
 export function positivePromise(): Promise<string> {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve('Text');
+      resolve('Hello man');
     }, 2000);
   });
 }

@@ -1,3 +1,4 @@
+import {BackspaceIcon} from '@heroicons/react/20/solid';
 import {Card} from '@nextui-org/card';
 import {Link} from '@nextui-org/link';
 import {Skeleton} from '@nextui-org/skeleton';
@@ -35,11 +36,13 @@ async function NewsCard() {
 export default function Page() {
   return (
     <div className="flex flex-col gap-5 p-6">
-      <div className="flex flex-col gap-2">
-        <Link href="/">Main</Link>
+      <div className="flex flex-col gap-5">
+        <Link href="/">
+          <BackspaceIcon className="h-3 w-3" /> <p className="ml-1">Welcome Page</p>
+        </Link>
         <Link href="/dashboard/settings">Settings</Link>
         <Link href="/dashboard/users">Users List</Link>
-        <Link href="/dashboard/report/FILE_1">Report FILE_1</Link>
+        <Link href="/dashboard/ton">Ton</Link>
       </div>
       <Suspense fallback={<NewsCardLoad />}>
         <NewsCard />
