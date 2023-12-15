@@ -2,6 +2,8 @@
 
 import {NextUIProvider} from '@nextui-org/react';
 
-export function Providers({children}: {children: React.ReactNode}) {
-  return <NextUIProvider>{children}</NextUIProvider>;
+import {cn} from '@/src/utils/mergeClasses';
+
+export function Providers({children, className}: {children: React.ReactNode; className?: string}) {
+  return <NextUIProvider className={cn(className)}>{children}</NextUIProvider>;
 }

@@ -35,8 +35,8 @@ async function NewsCard() {
 
 export default function Page() {
   return (
-    <div className="flex flex-col gap-5 p-6">
-      <div className="flex flex-col gap-5">
+    <div className="flex flex-col  gap-5 p-6">
+      <div className="flex flex-col items-start gap-5">
         <Link href="/">
           <BackspaceIcon className="h-3 w-3" /> <p className="ml-1">Welcome Page</p>
         </Link>

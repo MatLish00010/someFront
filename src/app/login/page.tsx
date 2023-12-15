@@ -12,7 +12,7 @@ export default function Page() {
   const {pending} = useFormStatus();
 
   return (
-    <main className="container mx-auto flex h-screen flex-1 flex-col items-center justify-center gap-5 px-4 pt-5 md:container">
+    <main className="container mx-auto flex  flex-1 flex-col items-center justify-center gap-5 px-4 pt-5 md:container">
       <h1 className="text-center text-3xl">Login</h1>
       <form
         action={dispatch}
